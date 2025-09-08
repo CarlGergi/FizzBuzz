@@ -6,6 +6,10 @@ package lab1;
 class FizzBuzz {
 
     public static void main(String[] args) {
+        doFizzBuzz();
+    }
+
+    private static void doFizzBuzz() {
         int i = 0;
         while (i<=100) {
 
